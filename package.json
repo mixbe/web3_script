@@ -1,0 +1,27 @@
+{
+  "name": "web3_script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lenster-post": "node ./src/lenster/post.js",
+    "create-wallet": "node  ./libs/createWallet.js",
+    "okx-withdraw": "node libs/okx_withdraw.js",
+    "zk-bridge-deposit": "node ./src/zkSyncEra/01_zk_bridge_deposit.js",
+    "zk-transfer": "node ./src/zkSyncEra/02_zk_transfer.js",
+    "zk-bridge-withdraw": "node ./src/zkSyncEra/04_zk_bridge_withdraw.js",
+    "zk-mint-nft": "node ./src/zkSyncEra/04_zk_mint_nft.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.11.9",
+    "dotenv": "^16.3.1",
+    "uuid": "^9.0.0",
+    "web3": "^4.0.2",
+    "zksync-web3": "^0.14.3"
+  }
+}
