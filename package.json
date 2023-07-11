@@ -11,7 +11,13 @@
     "zk-bridge-deposit": "node ./src/zkSyncEra/01_zk_bridge_deposit.js",
     "zk-transfer": "node ./src/zkSyncEra/02_zk_transfer.js",
     "zk-bridge-withdraw": "node ./src/zkSyncEra/04_zk_bridge_withdraw.js",
-    "zk-mint-nft": "node ./src/zkSyncEra/04_zk_mint_nft.js"
+    "zk-mint-nft": "node ./src/zkSyncEra/04_zk_mint_nft.js",
+    "fuel-accounts": "ts-node-esm  ./src/fuel/01_fuel_accounts.ts",
+    "fuel-transfer": "ts-node-esm  ./src/fuel/02_fuel_transfer.ts",
+    "fuel-deploy-contract": "ts-node-esm  ./src/fuel/03_fuel_deploy_contract.ts",
+    "fuel-mint-swap-asset": "ts-node-esm  ./src/fuel/04_fuel_mint_swap_asset.ts",
+    "fuel-swap": "ts-node-esm  ./src/fuel/05_fuel_swap.ts",
+    "fuel-lend": "ts-node-esm  ./src/fuel/06_fuel_lend.ts"
   },
   "author": "",
   "license": "ISC",
@@ -20,8 +26,13 @@
     "crypto-js": "^4.1.1",
     "dayjs": "^1.11.9",
     "dotenv": "^16.3.1",
+    "fuels": "^0.44.2",
     "uuid": "^9.0.0",
     "web3": "^4.0.2",
     "zksync-web3": "^0.14.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
   }
 }
