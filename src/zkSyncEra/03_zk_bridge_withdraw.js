@@ -9,7 +9,7 @@ const ethereumProvider = ethers.getDefaultProvider(process.env.ETH_NODE_URL);
 
 const main = async () => {
     const amount = ethers.utils.parseEther("0.001");
-    const accounts = readAccounts();
+    const accounts = readAccounts('erc20_wallets');
     for (let i = 0; i < accounts.length; i++) {
         const zkWallet = new Wallet(accounts[i].privateKey, zkSyncProvider, ethereumProvider);
         try {

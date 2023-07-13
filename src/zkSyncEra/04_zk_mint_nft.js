@@ -7,7 +7,7 @@ export const web3 = new Web3(new Web3.providers.HttpProvider(process.env.ZK_NODE
 const NFT_ADDRESS = '0x0611f40ba68Fa9Cb1E83aa2AeEEfd383EB813689';
 
 const main = async () => {
-    const accounts = readAccounts();
+    const accounts = readAccounts('erc20_wallets');
     for (let i = 0; i < accounts.length; i++) {
         try {
             const {address: from} = web3.eth.accounts.privateKeyToAccount(accounts[i].privateKey);

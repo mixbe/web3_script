@@ -9,7 +9,7 @@ const ethereumProvider = ethers.getDefaultProvider(process.env.ETH_NODE_URL);
 
 const main = async (tokenAddress = utils.ETH_ADDRESS, times = 1, amount = 0.001) => {
     const _amount = ethers.utils.parseEther('0.001');
-    const accounts = readAccounts();
+    const accounts = readAccounts('erc20_wallets');
 
     for (let t = 0; t < times; t++) {
         for (let i = 0; i < accounts.length; i++) {

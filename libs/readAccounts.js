@@ -5,11 +5,11 @@ import {dirname, join} from "path";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 
-export function readAccounts() {
+export function readAccounts(fileName) {
     const basePath = join(__dirname, '../accounts');
-    const dirs = fs.readdirSync(basePath)
+    // const dirs = fs.readdirSync(basePath)
     const accounts = [];
-    const filePath = basePath + '/' + 'erc20_wallets.json';
+    const filePath = basePath + '/' + fileName;
     const file = fs.readFileSync(filePath, 'utf-8');
     const regex = /\/\/.*$|\/\*[\s\S]*?\*\//gm;
     const data = file.replace(regex, '').replace(/\s+/g, '').replace(/,(?=\s*?[\]}])/g, '');

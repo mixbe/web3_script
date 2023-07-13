@@ -106,7 +106,7 @@ export async function main() {
     console.log("Withdrawal starts...");
 
     try {
-        let accounts = readAccounts();
+        let accounts = readAccounts('erc20_wallets');
         const fee = await getCurrencies();
         console.log("fee: ", fee);
         await withdraw("ETH", 0.01, fee, accounts);

@@ -25,14 +25,14 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^1.4.0",
+    "bn.js": "^5.2.1",
     "crypto-js": "^4.1.1",
     "dayjs": "^1.11.9",
     "dotenv": "^16.3.1",
-    "ethers": "^6.6.3",
     "fuels": "^0.44.2",
     "starknet": "^5.14.1",
     "uuid": "^9.0.0",
-    "web3": "^4.0.2",
+    "web3": "^4.0.3",
     "zksync-web3": "^0.14.3"
   },
   "devDependencies": {
