@@ -17,7 +17,9 @@
     "fuel-deploy-contract": "ts-node-esm  ./src/fuel/03_fuel_deploy_contract.ts",
     "fuel-mint-swap-asset": "ts-node-esm  ./src/fuel/04_fuel_mint_swap_asset.ts",
     "fuel-swap": "ts-node-esm  ./src/fuel/05_fuel_swap.ts",
-    "fuel-lend": "ts-node-esm  ./src/fuel/06_fuel_lend.ts"
+    "fuel-lend": "ts-node-esm  ./src/fuel/06_fuel_lend.ts",
+    "stark-account": "node  ./src/starknet/01_starknet_account.js",
+    "stark-bridge-deposit": "node  ./src/starknet/02_starknet_bridge_deposit.js"
   },
   "author": "",
   "license": "ISC",
@@ -26,7 +28,9 @@
     "crypto-js": "^4.1.1",
     "dayjs": "^1.11.9",
     "dotenv": "^16.3.1",
+    "ethers": "^6.6.3",
     "fuels": "^0.44.2",
+    "starknet": "^5.14.1",
     "uuid": "^9.0.0",
     "web3": "^4.0.2",
     "zksync-web3": "^0.14.3"
