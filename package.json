@@ -19,7 +19,8 @@
     "fuel-swap": "ts-node-esm  ./src/fuel/05_fuel_swap.ts",
     "fuel-lend": "ts-node-esm  ./src/fuel/06_fuel_lend.ts",
     "stark-account": "node  ./src/starknet/01_starknet_account.js",
-    "stark-bridge-deposit": "node  ./src/starknet/02_starknet_bridge_deposit.js"
+    "stark-bridge-deposit": "node  ./src/starknet/02_starknet_bridge_deposit.js",
+    "stark-deployment-argentx-account": "node  ./src/starknet/03_starkent_deployment_argentx_account.js"
   },
   "author": "",
   "license": "ISC",
