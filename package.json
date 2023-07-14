@@ -20,7 +20,8 @@
     "fuel-lend": "ts-node-esm  ./src/fuel/06_fuel_lend.ts",
     "stark-account": "node  ./src/starknet/01_starknet_account.js",
     "stark-bridge-deposit": "node  ./src/starknet/02_starknet_bridge_deposit.js",
-    "stark-deployment-argentx-account": "node  ./src/starknet/03_starkent_deployment_argentx_account.js"
+    "stark-deployment-argentx-account": "node  ./src/starknet/03_starkent_deployment_argentx_account.js",
+    "stark-mint-starknetID": "node  ./src/starknet/05_start_mint_starknetId.js"
   },
   "author": "",
   "license": "ISC",
@@ -32,6 +33,7 @@
     "dotenv": "^16.3.1",
     "fuels": "^0.44.2",
     "starknet": "^5.14.1",
+    "starknetid.js": "^1.5.0",
     "uuid": "^9.0.0",
     "web3": "^4.0.3",
     "zksync-web3": "^0.14.3"
