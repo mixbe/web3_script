@@ -23,7 +23,7 @@ async function get_balnce(l2Address) {
         ],
         "stateMutability": "view"
     }]
-    const L2TokenContract = new Contract(abi, process.env.START_L2_DELEGATE_PROXY_TOKEN_ADDRESS, provider);
+    const L2TokenContract = new Contract(abi, process.env.START_L2_ETH_TOKEN_ADDRESS, provider);
     const balance = await L2TokenContract.balanceOf(l2Address);
     return ethers.utils.formatEther(balance.balance);
 }
