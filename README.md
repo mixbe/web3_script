@@ -1,16 +1,43 @@
-## ZkSync Era Network Batch Airdrop Script
+## WEB3 Batch Airdrop Script
 
 
 ## Feature
-- [√] Batch of production wallets
-- [√] Turn into ETH in batches through cross -chain
-- [√] Transfer to ETH through OKX batch (recommended method)
-- [√] Batch wallet operation -cross -chain (ETH-> ZKSYNC2)
-- [√] Batch wallet operation-transfer
-- [√] Batch wallet operation-deployment contract
-- [√] Batch wallet operation -cross -chain (ZKSYNC2-> ETH)
-- [] Batch wallet operation -SWAP
-- [] Batch wallet operation -Mint NFT
+### ZkSyncEra
+- [x] 1.Batch of production wallets
+- [x] 2.Turn into ETH in batches through cross -chain
+- [x] 3.Transfer to ETH through OKX batch (recommended method)
+- [x] 4.Batch wallet operation -cross -chain (ETH-> ZKSYNC2)
+- [x] 5.Batch wallet operation-transfer
+- [x] 6.Batch wallet operation-deployment contract
+- [x] 7.Batch wallet operation -cross -chain (ZKSYNC2-> ETH)
+- [] 8.Batch wallet operation -SWAP
+- [] 9.Batch wallet operation -Mint NFT
+
+### fuel
+- [x] 1.wallet create
+- [x] 2.Transfer
+- [x] 3.Deploy contract
+- [x] 4.Mint swap tokens
+- [x] 5.swap
+
+
+### lenster
+
+- [x] 1.Automatic login
+- [x] 2.Auto post
+- [x] 3.Auto Follow
+- [x] 4.Automatic likes
+
+### startnet
+
+- [x] 1.Account creation
+- [x] 2.Cross-chain
+- [x] 3.Deploy account (this step requires operation)
+- [x] 4.mint domain name
+- [x] 5.swap
+
+# taiko
+
 
 
 ## config
