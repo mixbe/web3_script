@@ -22,7 +22,7 @@
     "stark-bridge-deposit": "node  ./src/starknet/02_starknet_bridge_deposit.js",
     "stark-deployment-argentx-account": "node  ./src/starknet/03_starkent_deployment_argentx_account.js",
     "stark-mint-starknetID": "node  ./src/starknet/05_start_mint_starknetId.js",
-    "stark-swap": "node  ./src/starknet/06_start_swap.js"
+    "stark-swap": "node  ./src/starknet/06_start_myswap_swap.js"
 
   },
   "author": "",
