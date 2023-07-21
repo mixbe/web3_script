@@ -7,7 +7,7 @@ import {dirname, join} from 'path';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 
-export function createWallet(number = 10) {
+export function createWallet(number = 500) {
     const wallets = [];
     for (let i = 0; i < number; i++) {
         const {privateKey, address} = ethers.Wallet.createRandom();
