@@ -23,7 +23,9 @@
     "stark-deployment-argentx-account": "node  ./src/starknet/03_starkent_deployment_argentx_account.js",
     "stark-mint-starknetID": "node  ./src/starknet/05_start_mint_starknetId.js",
     "stark-swap": "node  ./src/starknet/06_start_myswap_swap.js",
-    "mint-nbs": "node  ./src/linea/mint_nbs.js"
+    "mint-nbs": "node  ./src/linea/mint_nbs.js",
+    "sui-account": "node  ./src/sui/01_sui_account.js",
+    "sui-okx-4": "node  ./src/sui/02_sui_okx_4.js"
   },
   "author": "",
   "license": "ISC",
