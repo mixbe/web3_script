@@ -25,7 +25,8 @@
     "stark-swap": "node  ./src/starknet/06_start_myswap_swap.js",
     "mint-nbs": "node  ./src/linea/mint_nbs.js",
     "sui-account": "node  ./src/sui/01_sui_account.js",
-    "sui-okx-4": "node  ./src/sui/02_sui_okx_4.js"
+    "sui-okx-4": "node  ./src/sui/02_sui_okx_4.js",
+    "whitebit-script": "node  ./src/whitebit/1.whitebit_script.js"
   },
   "author": "",
   "license": "ISC",
